@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+}
+
+.doc-lang-navigation-box {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.doc-lang__selector {
+    appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    outline-style: none;
+    border: none;
+    font-family: "Tourney";
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.doc-navigation {
+    font-family: "Staatliches";
+    font-size: 22px;
+    letter-spacing: 3%;
+}
+
+.section__full-title {
+    display: flex;
+    align-items: flex-start;
+}
+
+.section {
+    margin-bottom: 70px;
+}
+
+h2 {
+    display: inline-block;
+    font-family: "Francois One";
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+
+sup {
+    font-family: "Farro";
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 4%;
+    line-height: 20px;
+}
+
+mark {
+    background-color: #DADADA;
+}
+
+.section__paragraph {
+    font-family: "PT Sans";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.section__paragraph_first {
+    font-family: "Cabin";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bolt {
+    font-weight: 900;
+}
